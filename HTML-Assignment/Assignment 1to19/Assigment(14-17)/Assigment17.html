@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mega HTML Form – Admission + Internet Survey</title>
+</head>
+<body><form>
+    <h1 align="center">CodingGita University – Admission + Internet Survey Form</h1><br><br>
+    <p align="center">Please fill out this application form completely. 
+Your admission will be considered along with the 
+internet usage survey for research purposes.</p><hr>
+
+<h2>Personal Information Fieldset</h2>
+<label for="name">Enter Name:</label>
+<input type="text" placeholder="Enter your full Name" id="name"><br><br>
+<label for="father name">Father's Name:</label>
+<input type="text" placeholder="Enter father name" id="father name"><br><br>
+<label for="mothername">Mother's Name</label>
+<input type="text" placeholder="Enter father name" id="mothername"><br><br>
+<label for="Email">Email:</label>
+<input type="email" placeholder="Enter your email" id="Email"><br><br>
+<label for="phone">Phone</label>
+<input type="tel" placeholder="Enter phone no" id="phone" min="6000000000" max="9999999999"><br><br>
+<label for="DOB">DOB</label>
+<input type="date" id="DOB"><br><br>
+<fieldset>
+    <legend>Gender</legend>
+    <label for="Gender">Male</label>
+<fieldset class="gender-fieldset">
+      <legend>Gender</legend>
+
+      <div class="gender-choices" role="radiogroup" aria-labelledby="genderLegend">
+        <label>
+          <input type="radio" name="gender" value="male" required />
+          Male
+        </label>
+
+        <label>
+          <input type="radio" name="gender" value="female" />
+          Female
+        </label>
+
+        <label>
+          <input type="radio" name="gender" value="other" />
+          Other
+        </label>
+      </div>
+</fieldset>
+
+<label for="Nationality">Nationality</label>
+<select name="" id="">
+    <option value="select" selected disabled>Select</option>
+    <option value="Indian">Indian</option>
+    <option value="NRI">NRI</option>
+    <option value="Other">Other</option>
+</select><br><br>
+<label for="photo"> Uplod photo</label>
+<input type="file" accept=".jpg,.png"><hr><br><br>
+
+
+
+
+
+
+<h2>Academic Details Fieldset</h2>
+<label for="Qualification">Highest Qualification:</label>
+<select name="" id="">
+    <option value="select"  selected disabled >select</option>
+    <option value="Higher Secondary (12th)">Higher Secondary (12th)</option>
+    <option value="Diploma">Diploma</option>
+    <option value="Bachelor’s Degree">Bachelor’s Degree (B.A / B.Sc / B.Com / B.Tech etc.)</option>
+    <option value="Master’s Degree">Master’s Degree (M.A / M.Sc / M.Com / M.Tech etc.)</option>
+    <option value="Doctorate / Ph.D.">Doctorate / Ph.D.</option>
+    <option value="Other">Other</option>
+</select><BR><BR>
+<label for="Stream">Stream:</label>
+<select name="" id="">
+    <option value="select" selected disabled>Select</option>
+    <option value="Science">Science</option>
+    <option value="Commerce">Commerce</option>
+    <option value="Arts">Arts</option>
+</select><br><br>
+<label for="marks">Percentage/CGPA</label>
+<input type="number" min="0" max="100"><br><br>
+<label for="year of passing">Year of passing</label>
+<input type="date"><br><br>
+<label for="Subjects Studied: ">Subjects Studied: </label>
+<input type="checkbox" id="Physics">
+<label for="Physics">physics</label>
+<input type="checkbox" id="Maths">
+<label for="Maths">Maths</label>
+<input type="checkbox" id="CS">
+<label for="CS">CS</label>
+<input type="checkbox" id="English">
+<label for="English">English</label>
+<input type="checkbox" id="Hindi">
+<label for="Hindi">Hindi</label><br><br>
+<label for="Certificates">Uplod Certificates</label>
+<input type="file" multiple id="Certificates"><br><br>
+<label for="">Preferred Cource:</label>
+<select name="" id="">
+    <option value="" selected disabled>Select</option>
+    <option value="MERN">MERN</option>
+    <option value="DSA">DSA</option>
+    <option value="AI/ML">AI/ML</option>
+    <option value="Web Dev">Web Dev</option>
+    <option value="Cloud">Cloud</option>
+</select><br><br>
+<label for="Admission Category">Admission Category:</label>
+<label for="Genral">Genral</label>
+<input type="radio" id="Genral" name="Admission Category">
+<label for="SC">SC</label>
+<input type="radio" id="SC" name="Admission Category">
+<label for="ST">ST</label>
+<input type="radio" id="ST" name="Admission Category">
+<label for="OBC">OBC</label>
+<input type="radio" id="OBC" name="Admission Category">
+<label for="EWS">EWS</label>
+<input type="radio" id="EWS" name="Admission Category"><hr><br><br>
+
+
+
+<h1>Internet Usage & Skills Fieldset</h1>
+<label for="Internet Access">Internet Access</label>
+<label for="yes">Yes</label>
+<input type="radio" id="yes" name="cat">
+<label for="no">No</label>
+<input type="radio" id="no" name="cat"><br><br>
+ 
+<label for="Devices Used">Devices Used:</label>
+<input type="checkbox" id="Laptop" name="Devices Used">
+<label for="Laptop"></label>
+<input type="checkbox" id="Mobile" name="Devices Used">
+<label for="Mobile">Mobile</label>
+<input type="checkbox" id=" Tablet " name="Devices Used">
+<label for=" Tablet "> Tablet </label>
+<input type="checkbox" id="Desktop" name="Devices Used">
+<label for="Desktop">Desktop</label><br><br>
+
+<label for="Daily Usage">Daily Usage</label>
+<select name="" id="">
+    <option value="" selected disabled>SELECT</option>
+    <option value="1 hours">&lt;1 hours</option>
+    <option value="1-3 hours">1-3 hours</option>
+    <option value="3-6 hours">3-6 hours</option>
+    <option value="6+ hours">6+ hours</option>
+</select><br><br>
+
+<label for="Preferred Study Time">Preferred Study Time:</label>
+<input type="time"><br><br>
+
+<label for="Weekly Data Usage">Weekly Data Usage GB:</label>
+<input type="range" name="" min="1" max="100" value="5" oninput="output1.value=this.value">
+<output id="output1">5</output><br><br>
+
+<label for="Favorite Social Platform:">Favorite Social Platform:</label><BR>
+<textarea rows="7" cols="30" placeholder="Favorite Social Platform And why..."  ></textarea><br><br>
+
+<label for="Skills">Skills:</label>
+<input type="checkbox" id="HTML" >
+<label for="HTML">HTML</label>
+<input type="checkbox" id="CSS">
+<label for="CSS">CSS</label>
+<input type="checkbox" id="Node.js">
+<label for="CSS">Node.js</label>
+<input type="checkbox" id="MongoDB">
+<label for="CSS">MongoDB</label>
+<input type="checkbox" id="Git">
+<label for="CSS">Git</label>
+<input type="checkbox" id="React">
+<label for="CSS">React</label><br><br>
+
+<label for="Internet Speed">Upload Speed Test Screenshot:</label>
+<input type="file" accept="png,jpg"><br><br>
+
+<label for="color">Favorite Color:</label>
+<input type="color"><br><br>
+
+<label for="Internet Satisfaction ">Internet Satisfaction: </label>
+<input type="range" name="" min="1" max="10" value="5" oninput="output.value=this.value">
+<output id="output">5</output><hr><br><br>
+
+
+
+<h2>Declaration Fieldset</h2>
+<label for="">Why join CodingGita?</label><br>
+<textarea rows="7" cols="30" placeholder="Explain....." ></textarea><br><br>
+
+<label for="">How has Internet helped your education?</label><br>
+<textarea rows="7" cols="30" placeholder="How has Internet helped your education?"></textarea><br><br>
+
+<label for="">Recommend CodingGita?</label>
+<input type="radio" id="yess" name="qwerty">
+<label for="yess">Yes</label>
+<input type="radio" id="noo" name="qwerty">
+<label for="noo">No</label><br><br>
+
+<input type="checkbox">
+<label for="">I hereby declare all information is true.</label><br><br>
+
+<label for="">Upload Signature:</label>
+<input type="file"><br><br>
+
+<label for="">Date of Submission:</label>
+<input type="date"><hr><br><br>
+
+
+<button aria-label="Submit your application">SUBMIT APPLICATION</button>
+<button>CLEAR FORM</button>
+
+</form>
+</body>
+</html>
